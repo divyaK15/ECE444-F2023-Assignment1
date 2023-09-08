@@ -1,5 +1,5 @@
 class utils:
-    def resversed(self, number):
+    def reversed(self, number):
         if type(number) is int:
             return int(str(number)[::-1])
         print("error")
