@@ -1,27 +1,19 @@
-from utils import utils
 
-def reversed_int():
-    myClass = utils()
-    myClass.reversed(12345)
+from utils import utils 
 
-def reversed_float():
-    myClass = utils()
-    myClass.reversed(35.3)
+new_instance = utils()
 
-def reversed_string():
-    myClass = utils()
-    myClass.reversed("1234")
+#int
+new_instance.reversed(1234)
+#float
+new_instance.reversed(12.34)
+#string
+new_instance.reversed("1234")
 
-def format_int():
-    myClass = utils()
-    myClass.formatter(123)
-
-def format_float():
-    myClass = utils()
-    myClass.formatter(12.3)
-
-def format_string():
-    myClass = utils()
-    myClass.formatter("123")
-
+#int
+new_instance.formatter(2)
+#float
+new_instance.formatter(2.3)
+#string
+new_instance.formatter("3")
 
